@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'fixedsys';
+    src: url('fonts/Fixedsys_Excelsior_Regular.ttf');
+}
+
+body {
+    background-color: rgb(13,5,41,255);
+    font-family: 'fixedsys';
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    user-select: none; /* Standard syntax */
+}
+
+header {
+    background-color: rgb(5,0,23,255);
+    padding: 15px;
+    text-align: center;
+}
+
+.heading-text {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: calc(90vh - 60px);
+    margin: 0;
+    padding: 0px 30px;
+}
+
+
+.text-tag {
+    font-size: 50px;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    background-color: white;
+    padding: 50px;
+    background-color: rgba(13, 5, 41, 255);
+    pointer-events: none; 
+}
+
+.side-container .char-button {
+    pointer-events: auto; /* Re-enable mouse interactions specifically for the button */
+}
+
+
+.game-container {
+    background-color: rgb(5,0,23);
+    width: 60%;
+    height: 80vh; 
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.grid-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: start;
+    background: linear-gradient(360deg, rgb(13,5,41), rgba(50,15,53));
+    border-radius: 10px;
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 3px solid rgba(50,15,53,255);
+    align-items: center;
+    transition: background-color 0.3s ease;
+    overflow: hidden; 
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* This ensures it covers the entire area of the parent grid item */
+    height: 100%; /* This ensures it covers the entire area of the parent grid item */
+    background: url('assets/x_icon.png') no-repeat center center;
+    background-size: contain; /* Adjust as necessary to cover or fit within the item */
+    display: none; /* Initially hidden */
+}
+
+.grid-item img {
+    pointer-events: none;
+    background-color: rgb(5,0,23);
+    display: block; 
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    margin: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.name-tag {
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.text-tag {
+    margin-bottom: 20px;
+}
+
+
+.char-button {
+    background-color: rgba(50,15,53);
+    color: white;
+    font-family: 'fixedsys';
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+
+}
+
+.disabled {
+    background-color: gray; /* Gray out the grid item */
+    pointer-events: none; /* Disable clicking */
+    opacity: 0.5; /* Make it semi-transparent */
+}
