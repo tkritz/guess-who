@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/guess-who/static/css/main.e58cc2af.css",
-    "main.js": "/guess-who/static/js/main.d89d05bf.js",
+    "main.css": "/guess-who/static/css/main.4d5d89e1.css",
+    "main.js": "/guess-who/static/js/main.72fdc07d.js",
     "static/js/453.0de15cb7.chunk.js": "/guess-who/static/js/453.0de15cb7.chunk.js",
     "static/media/Fixedsys_Excelsior_Regular.ttf": "/guess-who/static/media/Fixedsys_Excelsior_Regular.c79051f539825f0859aa.ttf",
     "static/media/x_icon.png": "/guess-who/static/media/x_icon.617d456c82705aea7b06.png",
     "index.html": "/guess-who/index.html",
-    "main.e58cc2af.css.map": "/guess-who/static/css/main.e58cc2af.css.map",
-    "main.d89d05bf.js.map": "/guess-who/static/js/main.d89d05bf.js.map",
+    "main.4d5d89e1.css.map": "/guess-who/static/css/main.4d5d89e1.css.map",
+    "main.72fdc07d.js.map": "/guess-who/static/js/main.72fdc07d.js.map",
     "453.0de15cb7.chunk.js.map": "/guess-who/static/js/453.0de15cb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e58cc2af.css",
-    "static/js/main.d89d05bf.js"
+    "static/css/main.4d5d89e1.css",
+    "static/js/main.72fdc07d.js"
   ]
 }
