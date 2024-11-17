@@ -166,6 +166,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 25px;
   width: 200px; /* Separate scaling for the card container */
   height: 200px;
   padding-bottom: 10px;
