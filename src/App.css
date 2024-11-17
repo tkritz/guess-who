@@ -90,13 +90,11 @@ header {
   grid-template-columns: repeat(7, 1fr); /* Rectangular grid */
   gap: 5px;
   padding: 10px;
-  justify-content: start;
-  align-content: start;
+
 }
 
 .grid-item {
-  width: 110px;
-  height: 153px;
+ 
   background: linear-gradient(360deg, rgb(13, 5, 41), rgba(50, 15, 53));
   border: 3px solid rgba(50, 15, 53, 255);
   border-radius: 10px;
