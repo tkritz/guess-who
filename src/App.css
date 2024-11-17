@@ -47,6 +47,7 @@ header {
 }
 
 .dropdown-content {
+  width: 170px;
   position: absolute;
   top: 50px; /* Place below the mode button */
   right: 0;
