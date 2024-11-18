@@ -159,7 +159,7 @@ const mediaOptions = {
     "James",
     "Cho",
     "Trelawney",
-    "Percy",
+    "Narcissa",
   ],
 };
 
